@@ -14,11 +14,19 @@ The Silent Burnout AI web application is deployed using Streamlit Community Clou
 
 ---
 
-## Application Screenshot
+## Application Screenshots
 
-The screenshot below shows the Silent Burnout AI Streamlit application, including the input form, prediction result, confidence score, risk probability distribution, and engagement profile visualization.
+### Home Page
 
-![Silent Burnout AI Application Screenshot]((images/app_screenshot.pdf))
+The home page allows users to enter student behavioral and academic data such as LMS clicks, active days, resources accessed, assessment score, and engagement details.
+
+![Silent Burnout AI Home Page](images/app_home.png)
+
+### Prediction Result
+
+The prediction page displays the student risk category, confidence score, risk probability distribution, and student engagement profile visualization.
+
+![Silent Burnout AI Prediction Result](images/prediction_result.png)
 
 ---
 
