@@ -1,26 +1,54 @@
 # Silent Burnout AI
 
-Early Warning AI system for detecting silent burnout and dropout risk in students using academic and behavioral data.
+Silent Burnout AI is a machine learning-based early warning system designed to detect academic disengagement and potential burnout risk among students using Learning Management System (LMS) behavioral data and academic performance indicators.
 
-## Overview
-This project builds a machine learning pipeline to detect early signs of student burnout using academic engagement and behavioral indicators.
+The system predicts whether a student belongs to a Low, Moderate, or High disengagement risk category and presents the result through an interactive Streamlit dashboard.
 
-## Project Structure
-- data/ → academic datasets
-- notebooks/ → experiment pipelines
-- models/ → trained models
-- results/ → evaluation outputs
+---
 
-## How to Run
-1. Install dependencies:
-   pip install -r requirements.txt
+## Project Overview
 
-2. Open notebooks:
-   notebooks/01_baseline_modeling.ipynb
+Academic disengagement is often detected only after a student’s performance has already declined. Traditional monitoring systems mainly depend on grades, attendance, or final assessment outcomes. However, early signs of disengagement can appear through behavioral changes such as reduced LMS activity, fewer resource interactions, irregular participation, and inconsistent academic submissions.
 
-## Dataset Download
+Silent Burnout AI uses behavioral and academic features to identify these early warning signs and classify students into risk levels.
 
-Due to GitHub file size limits, large datasets are hosted externally.
+---
 
-Download studentVle.csv:
-https://drive.google.com/file/d/1C2Hja5agzPLi9qMlrnEAcJYURTdkQa82/view?usp=drive_link
+## Problem Statement
+
+Student disengagement is usually a gradual process. Students may continue to remain enrolled while slowly reducing their learning activity, interaction frequency, and academic consistency. This hidden disengagement is referred to as silent burnout.
+
+The objective of this project is to build a machine learning system that can detect early signs of academic disengagement using LMS interaction data and academic performance features.
+
+---
+
+## Objectives
+
+- Detect early signs of student disengagement using behavioral and academic data
+- Analyze LMS activity patterns such as clicks, active days, and resource access
+- Engineer meaningful features from student interaction and assessment data
+- Train and compare machine learning models
+- Select the best-performing model for risk prediction
+- Build an interactive Streamlit dashboard for real-time prediction
+- Display risk probability and engagement profile visualizations
+
+---
+
+## Dataset
+
+This project uses the Open University Learning Analytics Dataset (OULAD), which contains student demographic, assessment, and LMS interaction data.
+
+The dataset includes:
+- Student information
+- LMS activity logs
+- Assessment scores
+- Resource interaction records
+
+Large dataset files are not uploaded directly to this repository due to GitHub file size limits.
+
+### Dataset Download
+
+Download `studentVle.csv` from the link below:
+
+```text
+Add your Google Drive dataset link here
