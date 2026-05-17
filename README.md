@@ -398,21 +398,3 @@ This project also includes:
 This project is developed for academic and research purposes.
 
 ---
-
-## Repository Topics
-
-Recommended GitHub topics:
-
-```text
-machine-learning
-data-science
-streamlit
-student-performance
-educational-data-mining
-learning-analytics
-gradient-boosting
-python
-scikit-learn
-burnout-detection
-academic-disengagement
-```
